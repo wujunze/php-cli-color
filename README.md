@@ -4,7 +4,7 @@ Simple and easy to use the PHP command-line output of color
 
 ## Installation
 
-composer require lijinma/php-cli-color '~1.0'
+`composer require wujunze/php-cli-color '~1.0'`
 
 ## How to use
 ```php
