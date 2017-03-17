@@ -24,4 +24,4 @@ echo $colors->getColoredString("Testing Colors class, this is default string on 
 
 ## run result
 
-![code run result](http://ww4.sinaimg.cn/large/0060lm7Tgy1fdptvr70bdj30nl072zld.jpg)
+![code run result](https://camo.githubusercontent.com/5509dd50a0f9fb194a6bc2a36153934e3d74e1d9/687474703a2f2f7777342e73696e61696d672e636e2f6c617267652f303036306c6d3754677931666470747672373062646a33306e6c3037327a6c642e6a7067)
