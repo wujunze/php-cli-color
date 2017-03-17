@@ -2,11 +2,11 @@
 Simple and easy to use the PHP command-line output of color
 
 
-##Installation
+## Installation
 
 composer require lijinma/php-cli-color '~1.0'
 
-##How to use
+## How to use
 ```php
 <?php
 
