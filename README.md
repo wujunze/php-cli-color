@@ -3,12 +3,11 @@ Simple and easy to use the PHP command-line output of color
 
 
 
-<p align="center">
-<a href="https://travis-ci.org/wujunze/php-cli-color"><img src="https://travis-ci.org/wujunze/php-cli-color.svg?branch=master" alt="Build Status"></a>
-</p>
+[![Build Status](https://travis-ci.org/wujunze/php-cli-color.svg?branch=master)](https://travis-ci.org/wujunze/php-cli-color)
+
 ## Installation
 
-`composer require wujunze/php-cli-color '~1.0'`
+`composer require wujunze/php-cli-color`
 
 ## How to use
 ```php
