@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: wujunze
- * Date: 2017/3/17
- * Time: 下午2:12
- */
 
 namespace Wujunze;
 
@@ -130,7 +124,7 @@ class Colors {
 
     /**
      * 输出提示信息
-     * @param $msgß
+     * @param $msg
      */
     public static function notice($msg)
     {
