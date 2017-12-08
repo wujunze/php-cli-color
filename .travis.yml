@@ -1,8 +1,9 @@
 language: php
 php:
+  - 5.6
   - 7.0
 before_script:
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
   - ./vendor/bin/phplint
-script: ./vendor/bin/phpunit -v
+script: ./vendor/bin/phpunit 
