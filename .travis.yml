@@ -13,4 +13,5 @@ script:
   - ./vendor/bin/phpunit --coverage-clover=coverage.xml
 
 after_success:
+  - export CODECOV_TOKEN="ecbc8fbc-ad66-483d-82f9-266f46626dbf"
   - bash <(curl -s https://codecov.io/bash)
