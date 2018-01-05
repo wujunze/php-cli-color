@@ -23,5 +23,7 @@
             <directory suffix="Test.php">./tests/repositories</directory>
         </testsuite>
     </testsuites>
-
+    <logging>
+        <log type="coverage-clover" target="clover.xml"/>
+    </logging>
 </phpunit>
