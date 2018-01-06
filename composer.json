@@ -15,7 +15,8 @@
     },
     "require-dev":{
         "phpunit/phpunit": "^5.0",
-        "overtrue/phplint": "^0.2"
+        "overtrue/phplint": "^0.2",
+        "codedungeon/phpunit-result-printer": "^0.5"
     },
     "autoload": {
         "psr-4": {

@@ -12,7 +12,7 @@ class CliColorTest extends TestCase
         return new Colors();
     }
 
-    public function testCliColor()
+    public function testColoredString()
     {
         $color = $this->createServer();
         $res = $color->getColoredString("Testing Colors class, this is purple string on yellow background.",
@@ -33,5 +33,14 @@ class CliColorTest extends TestCase
         $colors = $color->getForegroundColors();
         $this->assertNotEmpty($colors);
     }
+
+    public function testInitColoredString()
+    {
+        $color = $this->createServer();
+        $string =$color::initColoredString('hello php');
+        $this->assertEquals('hello php[0m', $string);
+    }
+
+
 
 }
