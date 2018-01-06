@@ -37,10 +37,31 @@ class CliColorTest extends TestCase
     public function testInitColoredString()
     {
         $color = $this->createServer();
-        $string =$color::initColoredString('hello php');
-        $this->assertEquals('hello php[0m', $string);
+        $string =$color::initColoredString('hello php', 'yellow', 'black');
+        $this->assertNotNull($string);
     }
 
+    public function testWarn(){
+        $color = $this->createServer();
+        $string = $color::warn('this the warn string');
+        $this->assertNull($string);
+    }
 
+    public function testError(){
+        $color = $this->createServer();
+        $string = $color::error('this the warn string');
+        $this->assertNull($string);
+    }
 
+    public function testSuccess(){
+        $color = $this->createServer();
+        $string = $color::success('this the warn string');
+        $this->assertNull($string);
+    }
+
+    public function testNotice(){
+        $color = $this->createServer();
+        $string = $color::notice('this the warn string');
+        $this->assertNull($string);
+    }
 }
