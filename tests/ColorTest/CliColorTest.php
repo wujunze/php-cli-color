@@ -1,6 +1,6 @@
 <?php
 
-namespace  Wujunze\Tests\Color;
+namespace Wujunze\Tests\Color;
 
 use Wujunze\Colors;
 use Wujunze\Tests\TestCase;
@@ -28,7 +28,8 @@ class CliColorTest extends TestCase
         $this->assertNotEmpty($colors);
     }
 
-    public function testGetForegroundColors(){
+    public function testGetForegroundColors()
+    {
         $color = $this->createServer();
         $colors = $color->getForegroundColors();
         $this->assertNotEmpty($colors);
@@ -37,29 +38,33 @@ class CliColorTest extends TestCase
     public function testInitColoredString()
     {
         $color = $this->createServer();
-        $string =$color::initColoredString('hello php', 'yellow', 'black');
+        $string = $color::initColoredString('hello php', 'yellow', 'black');
         $this->assertNotNull($string);
     }
 
-    public function testWarn(){
+    public function testWarn()
+    {
         $color = $this->createServer();
         $string = $color::warn('this the warn string');
         $this->assertNull($string);
     }
 
-    public function testError(){
+    public function testError()
+    {
         $color = $this->createServer();
         $string = $color::error('this the warn string');
         $this->assertNull($string);
     }
 
-    public function testSuccess(){
+    public function testSuccess()
+    {
         $color = $this->createServer();
         $string = $color::success('this the warn string');
         $this->assertNull($string);
     }
 
-    public function testNotice(){
+    public function testNotice()
+    {
         $color = $this->createServer();
         $string = $color::notice('this the warn string');
         $this->assertNull($string);
