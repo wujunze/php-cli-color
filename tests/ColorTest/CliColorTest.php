@@ -18,7 +18,7 @@ class CliColorTest extends TestCase
         $res = $color->getColoredString("Testing Colors class, this is purple string on yellow background.",
             "purple",
             "yellow");
-        $this->assertEquals('[0;35m[43mTesting Colors class, this is purple string on yellow background.[0m', $res);
+        $this->assertEquals('[0;35m[43mTesting Colors class, this is purple string on yellow background.[0m' . PHP_EOL, $res);
     }
 
     public function testGetBackgroundColors()
