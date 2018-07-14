@@ -84,7 +84,7 @@ class Colors
         // Add string and end coloring
         $colored_string .= $string . "\033[0m";
 
-        return $colored_string . PHP_EOL;
+        return $colored_string;
     }
 
     // Returns all foreground color names
