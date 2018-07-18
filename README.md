@@ -5,6 +5,7 @@ Simple and easy to use the PHP command-line output of color
 
 [![Build Status](https://travis-ci.org/wujunze/php-cli-color.svg?branch=master)](https://travis-ci.org/wujunze/php-cli-color)
 [![codecov](https://codecov.io/gh/wujunze/php-cli-color/branch/master/graph/badge.svg)](https://codecov.io/gh/wujunze/php-cli-color)
+[![Latest Stable Version](https://poser.pugx.org/wujunze/php-cli-color/v/stable)](https://packagist.org/packages/wujunze/php-cli-color) [![Total Downloads](https://poser.pugx.org/wujunze/php-cli-color/downloads)](https://packagist.org/packages/wujunze/php-cli-color) [![License](https://poser.pugx.org/wujunze/php-cli-color/license)](https://packagist.org/packages/wujunze/php-cli-color)
 
 ## Installation
 
