@@ -68,7 +68,7 @@ class Colors
     }
 
     // Returns colored string
-    public function getColoredString($string, $foreground_color = null, $background_color = null)
+    public function getColoredString($string, $foreground_color = null, $background_color = null, $new_line = true)
     {
         $colored_string = "";
 
@@ -84,7 +84,7 @@ class Colors
         // Add string and end coloring
         $colored_string .= $string . "\033[0m";
 
-        return $colored_string . PHP_EOL;
+        return $new_line ?  $colored_string . PHP_EOL : $colored_string;
     }
 
     // Returns all foreground color names
