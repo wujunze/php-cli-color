@@ -68,7 +68,7 @@ class Colors
     }
 
     // Returns colored string
-    public function getColoredString($string, $foreground_color = null, $background_color = null, $new_line = true)
+    public function getColoredString($string, $foreground_color = null, $background_color = null, $new_line = false)
     {
         $colored_string = "";
 
