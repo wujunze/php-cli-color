@@ -21,6 +21,17 @@ class CliColorTest extends TestCase
         $this->assertEquals('[0;35m[43mTesting Colors class, this is purple string on yellow background.[0m' . PHP_EOL, $res);
     }
 
+    public function testColorString()
+    {
+        $color = $this->createServer();
+        $res = $color->getColoredString("Testing Colors class, this is purple string on yellow background.",
+            "purple",
+            "yellow",
+            false);
+        $this->assertEquals('[0;35m[43mTesting Colors class, this is purple string on yellow background.[0m' , $res);
+
+    }
+
     public function testGetBackgroundColors()
     {
         $color = $this->createServer();
